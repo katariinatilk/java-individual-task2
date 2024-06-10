@@ -12,12 +12,12 @@ public class Main {
     boolean loop = true;
     while(loop){
       createMenu();
-      int option = scanner.nextInt(); // Read the user's choice
-      scanner.nextLine(); // Consume newline
+      int option = scanner.nextInt(); 
+      scanner.nextLine(); 
       if (option == 1) {
-        createBook(scanner); // Pass the Scanner to the method
+        createBook(scanner); 
       } else if (option == 2) {
-        removeBook(scanner); // Pass the Scanner to the method
+        removeBook(scanner); 
       } else if (option == 3) {
         showAllBooks();
       } else if (option == 4) {
